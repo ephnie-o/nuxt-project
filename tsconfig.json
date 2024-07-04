@@ -1,4 +1,11 @@
 {
-  // https://nuxt.com/docs/guide/concepts/typescript
-  "extends": "./.nuxt/tsconfig.json"
+  "compilerOptions": {
+
+    "allowJs": false,
+    "noEmit": true
+  },
+  "compileOnSave": false,
+  "exclude": [ "src", "wwwroot" ],
+  "include": [ "file.ts" ]
 }
+
